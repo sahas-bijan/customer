@@ -19,7 +19,7 @@
       "d1_databases": [
         {
           "binding": "DB",
-          "database_name": "customer-support-ticket-system",
+          "database_name": "customer-support-ticket",
           "database_id": "f130602e-fba2-45ca-94e7-191c38a06bd7",
           "migrations_dir": "worker/db/migrations"
         }
@@ -29,8 +29,8 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "customer-support-ticket-system",
-      "database_id": "00000000-0000-0000-0000-000000000000",
+      "database_name": "customer-support-ticket",
+      "database_id": "f130602e-fba2-45ca-94e7-191c38a06bd7",
       "migrations_dir": "worker/db/migrations"
     }
   ],
