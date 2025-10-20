@@ -1,5 +1,5 @@
 import { sql } from 'drizzle-orm';
-import { index, int, sqliteTable, text, uniqueIndex } from 'drizzle-orm/sqlite-core';
+import { index, int, sqliteTable, text } from 'drizzle-orm/sqlite-core';
 
 // Tickets table
 export const ticketsTable = sqliteTable(
@@ -37,4 +37,3 @@ export const commentsTable = sqliteTable(
 );
 
 // Keep the existing groups table for backward compatibility
-
